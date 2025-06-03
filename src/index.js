@@ -42,7 +42,7 @@ connectDB()
             throw error
         })
 
-        app.listen(porocess.env.PORT, () => {
+        app.listen(process.env.PORT, () => {
             console.log(`App is listining in port ${process.env.PORT}`)
         })
     }
