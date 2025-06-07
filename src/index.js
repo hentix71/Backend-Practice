@@ -4,6 +4,8 @@
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
 
+import app from "./app.js"
+
 
 // database sanga connect gardda jaila try catch use garne
 // database ko lagi time ni lagxa so async await
